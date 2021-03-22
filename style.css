@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("https://fonts.google.com/specimen/Kumbh+Sans");
+}
+
+h1,
+p,
+label,
+#sign-up {
+  font-family: Kumbh Sans, Arial, sans-serif;
+}
+
+form {
+  background-color: white;
+  width: 450px;
+  height: 550px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 5px 5px #777777;
+}
+
+h1 {
+  font-weight: lighter;
+  padding-top: 30px;
+  margin-bottom: 5px;
+  color: #585858;
+}
+
+p,
+label {
+  color: hsl(0, 0%, 59%);
+}
+
+input,
+#sign-up {
+  width: 380px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 17px;
+  border-style: unset;
+}
+
+input {
+  box-shadow: 0 5px 2px -5px #777777;
+  display: block;
+  margin: auto;
+}
+
+#instruct1,
+#instruct2,
+#instruct3,
+#instruct4,
+#instruct5 {
+  visibility: hidden;
+  color: tomato;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.control1-2 {
+  position: relative;
+  right: 115px;
+  bottom: 32px;
+}
+
+#control3 {
+  position: relative;
+  right: 100px;
+  bottom: 32px;
+}
+
+#control4 {
+  position: relative;
+  right: 85px;
+  bottom: 32px;
+}
+
+img {
+  margin-right: 30px;
+}
+
+#sign-up {
+  background-color: rgb(62, 175, 164);
+  color: white;
+  font-weight: bolder;
+}
+
+a {
+  color: rgb(62, 175, 164);
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#small {
+  font-size: 14px;
+}
